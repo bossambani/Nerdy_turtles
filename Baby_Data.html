@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Data System</title>
+    <script src="Baby_Data.js" defer></script>
+</head>
+<body>
+    <form>
+        <h1>CPSC 1045 Baby Data System</h1>
+        <fieldset>
+        <legend>Enter Child Information </legend>
+            <label for="childName">Name</label>
+            <input type="text" name="childName" id="childName">
+            <br><br>
+            <label for="gender">Sex</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br><br>
+            <button id="add">Add Baby</button>
+            <button id="remove">Remove Baby</button>
+            <button id="empty">Empty List</button>
+            <br><br>
+            <p>Child List</p>
+            <ul id="childList">
+
+            </ul>
+   
+</fieldset>
+</form>
+    <button id="count">Count By Sex</button>
+    <br><br>
+    <p>Boys: <span id="boysCount">0</span> Girls: <span id="girlsCount">0</span></p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Guessing Game</title>
+</head>
+<body>
+    <h1>Guess the Card</h1>
+
+    <div id="buttons">
+        <button id="drawCard">Draw Card</button>
+        <button id="checkGuess">Check Guess</button>
+    </div>
+
+    <div id="cardsInfo">
+        <fieldset>
+            <legend>Pick A Card and Suit</legend>
+            <select name="card" id="card">
+                <option value="ace">Ace</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+                <option value="five">Five</option>
+                <option value="six">Six</option>
+                <option value="seven">Seven</option>    
+                <option value="eight">Eight</option>
+                <option value="nine">Nine</option>
+                <option value="ten">Ten</option>
+                <option value="jack">Jack</option>
+                <option value="queen">Queen</option>
+                <option value="king">King</option>
+            </select>
+            
+            <select name="suit" id="suit">
+                <option value="clubs">Clubs</option>
+                <option value="diamonds">Diamonds</option>
+                <option value="hearts">Hearts</option>
+                <option value="spades">Spades</option>
+            </select>
+        </fieldset>
+    </div>
+
+    <script src="cards.js"></script>
+</body>
+</html>
